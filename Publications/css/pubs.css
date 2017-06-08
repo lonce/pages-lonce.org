@@ -1,0 +1,12 @@
+body {
+	background-color: rgb(204, 204, 204);
+	}
+
+cite {font: bold 14px Georgia, "Times New Roman", Times, serif ; text-transform:capitalize; } 
+/* blockquote {margin: 1em; padding: 1em; font:Geneva, Arial, Helvetica, sans-serif 14px;}  */
+ul {
+    list-style-image: url('blueball.gif');
+}
+li {
+	margin-bottom: 6px;
+}

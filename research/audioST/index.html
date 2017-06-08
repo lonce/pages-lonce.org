@@ -1,0 +1,56 @@
+
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="Content-Type">
+    <link rel="stylesheet" type="text/css" href="css/appstyle.css">
+    <title>Spectrogram Inversion</title>
+  </head>
+
+  <body>
+
+   <!--  <h1>Audio Style Transfer</h1>
+    This page contains software and info reconstructing signals from spectrograms. --> <br> 
+    <h2> Audio Style Transfer</h2>
+    <p>
+    This secttion a companion page for the paper: <br>
+    Wyse, Lonce. (2017), <a href="http://lonce.org/home/Publications/publications/wyse.dlm17.pdf"> Audio spectrogram representations for processing with Convolutional Neural Networks.</em> <a href=http://dorienherremans.com/dlm2017/International> Workshop on Deep Learning for Music</a> May, 2017, Anchorage  
+    </p>
+
+    Figure 1 from the paper is reproduce here:<br>
+    <img src="2by3Figure.png" style="width:600"><br>
+
+    and the sounds for each spectrogram:
+  <ul>
+    <li>Style (rooster crow) <br>
+      <audio controls>
+        <source src="sounds/roosters5.0.wav" type="audio/wav">
+      </audio></li>
+    <li>Content (speech: "The rich and famous")<br>
+      <audio controls>
+        <source src="sounds/BeingRural5.0.wav" type="audio/wav">
+      </audio></li>
+    <li>a) With trained weights and no image noise<br>
+      <audio controls>
+        <source src="sounds/RichRooster.rand0.noise0.wav" type="audio/wav">
+      </audio></li>
+    <li>b) With random weights and no image noise<br>
+      <audio controls>
+        <source src="sounds/RichRooster.rand1.noise0.wav" type="audio/wav">
+      </audio></li>
+    <li>c) With trained weights and image noise<br>
+      <audio controls>
+        <source src="sounds/RichRooster.rand0.noise1.wav" type="audio/wav">
+      </audio></li>
+    <li>d) With random weights and image noise<br>
+      <audio controls>
+        <source src="sounds/RichRooster.rand1.noise1.wav" type="audio/wav">
+      </audio></li>
+  </ul>
+
+   <p>
+   All sounds were rendered from magnitude spectrograms using inversion techniques described <a href=http://anclab.org/software/phaserecon/>here</p>.
+
+  <h2><center>...</center></h2>
+  </body>
+
+</html>
